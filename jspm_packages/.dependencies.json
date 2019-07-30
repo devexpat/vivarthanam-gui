@@ -9,24 +9,18 @@
     "deps": {},
     "peerDeps": {}
   },
-  "npm:jspm-nodelibs-process@0.2.0": {
-    "deps": {},
-    "peerDeps": {}
-  },
   "npm:systemjs-plugin-babel@0.0.17": {
     "deps": {},
     "peerDeps": {}
   },
-  "npm:vue@2.2.1": {
+  "npm:vue@2.6.10": {
     "deps": {},
     "peerDeps": {
       "process": "npm:jspm-nodelibs-process@^0.2.0"
     }
   },
-  "npm:vivarthanam-converter@1.0.2": {
-    "deps": {
-      "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.1"
-    },
+  "npm:jspm-nodelibs-process@0.2.0": {
+    "deps": {},
     "peerDeps": {}
   },
   "npm:vivarthanam-unicode-conversion-maps@1.0.1": {
@@ -35,6 +29,12 @@
       "fs": "npm:jspm-nodelibs-fs@^0.2.0",
       "path": "npm:jspm-nodelibs-path@^0.2.0"
     }
+  },
+  "npm:vivarthanam-converter@1.0.2": {
+    "deps": {
+      "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.1"
+    },
+    "peerDeps": {}
   },
   "npm:@jspm/core@1.0.4": {
     "deps": {},

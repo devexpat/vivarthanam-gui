@@ -1,0 +1,159 @@
+{
+  "main": "dist/vue.runtime.common.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "dist/vue.esm.browser.min.js": {
+      "format": "esm"
+    },
+    "dist/vue.esm.js": {
+      "format": "esm"
+    },
+    "dist/vue.runtime.esm.js": {
+      "format": "esm"
+    },
+    "src/compiler/directives/index.js": {
+      "format": "esm"
+    },
+    "src/compiler/parser/html-parser.js": {
+      "format": "esm"
+    },
+    "src/core/components/index.js": {
+      "format": "esm"
+    },
+    "src/core/index.js": {
+      "format": "esm"
+    },
+    "src/core/instance/index.js": {
+      "format": "esm"
+    },
+    "src/core/instance/proxy.js": {
+      "format": "esm"
+    },
+    "src/core/observer/array.js": {
+      "format": "esm"
+    },
+    "src/core/util/index.js": {
+      "format": "esm"
+    },
+    "src/core/util/perf.js": {
+      "format": "esm"
+    },
+    "src/core/vdom/helpers/index.js": {
+      "format": "esm"
+    },
+    "src/core/vdom/modules/index.js": {
+      "format": "esm"
+    },
+    "src/core/vdom/patch.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/compiler/directives/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/compiler/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/compiler/modules/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/compiler/util.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/entry-compiler.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/entry-runtime.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/entry-server-basic-renderer.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/runtime/components/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/runtime/directives/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/runtime/directives/model.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/runtime/modules/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/server/compiler.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/server/directives/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/web/server/modules/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/compiler/directives/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/compiler/modules/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/entry-compiler.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/entry-runtime-factory.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/runtime/components/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/runtime/components/transition-group.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/runtime/components/transition.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/runtime/directives/*": {
+      "format": "esm"
+    },
+    "src/platforms/weex/runtime/modules/index.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/runtime/modules/transition.js": {
+      "format": "esm"
+    },
+    "src/platforms/weex/runtime/text-node.js": {
+      "format": "esm"
+    },
+    "src/server/bundle-renderer/create-bundle-runner.js": {
+      "format": "esm"
+    },
+    "src/server/webpack-plugin/*": {
+      "format": "esm"
+    },
+    "src/shared/constants.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./src/compiler": "./src/compiler/index.js",
+    "./src/compiler/codegen": "./src/compiler/codegen/index.js",
+    "./src/compiler/parser": "./src/compiler/parser/index.js",
+    "./src/core/global-api": "./src/core/global-api/index.js",
+    "./src/core/instance/render-helpers": "./src/core/instance/render-helpers/index.js",
+    "./src/core/observer": "./src/core/observer/index.js",
+    "./src/platforms/web/runtime": "./src/platforms/web/runtime/index.js",
+    "./src/platforms/web/util": "./src/platforms/web/util/index.js",
+    "./src/platforms/weex/compiler": "./src/platforms/weex/compiler/index.js",
+    "./src/platforms/weex/compiler/modules/recycle-list": "./src/platforms/weex/compiler/modules/recycle-list/index.js",
+    "./src/platforms/weex/runtime": "./src/platforms/weex/runtime/index.js",
+    "./src/platforms/weex/util": "./src/platforms/weex/util/index.js",
+    "./src/server/optimizing-compiler": "./src/server/optimizing-compiler/index.js",
+    "./src/server/template-renderer": "./src/server/template-renderer/index.js"
+  }
+}

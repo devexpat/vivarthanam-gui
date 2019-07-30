@@ -39,7 +39,7 @@ SystemJS.config({
     "vivarthanam-converter": "npm:vivarthanam-converter@1.0.2",
     "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.1",
     "process": "npm:jspm-nodelibs-process@0.2.0",
-    "vue": "npm:vue@2.2.1"
+    "vue": "npm:vue@2.6.10"
   },
   packages: {
     "npm:vivarthanam-converter@1.0.2": {
