@@ -1,0 +1,11 @@
+{
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "nodelibs/*": {
+      "format": "esm"
+    }
+  }
+}
