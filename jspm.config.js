@@ -36,15 +36,15 @@ SystemJS.config({
   map: {
     "fs": "npm:jspm-nodelibs-fs@0.2.1",
     "path": "npm:jspm-nodelibs-path@0.2.3",
-    "vivarthanam-converter": "npm:vivarthanam-converter@1.0.1",
-    "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.0",
+    "vivarthanam-converter": "npm:vivarthanam-converter@1.0.2",
+    "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.1",
     "process": "npm:jspm-nodelibs-process@0.2.0",
     "vue": "npm:vue@2.2.1"
   },
   packages: {
-    "npm:vivarthanam-converter@1.0.1": {
+    "npm:vivarthanam-converter@1.0.2": {
       "map": {
-        "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.0"
+        "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.1"
       }
     }
   }

@@ -24,8 +24,8 @@
     "watch": "latest"
   },
   "dependencies": {
-    "vivarthanam-unicode-conversion-maps": "^1.0.0",
-    "vivarthanam-converter": "^1.0.1",
+    "vivarthanam-unicode-conversion-maps": "^1.0.1",
+    "vivarthanam-converter": "^1.0.2",
     "siimple": "^2.0.0",
     "siimple-colors": "0.0.2"
   },
@@ -34,8 +34,8 @@
     "name": "vivarthanam-gui",
     "main": "vivarthanam-gui.js",
     "dependencies": {
-      "vivarthanam-converter": "^1.0.1",
-      "vivarthanam-unicode-conversion-maps": "^1.0.0",
+      "vivarthanam-converter": "^1.0.2",
+      "vivarthanam-unicode-conversion-maps": "^1.0.1",
       "vue": "^2.2.1"
     },
     "devDependencies": {
@@ -43,6 +43,8 @@
       "plugin-babel": "systemjs-plugin-babel@^0.0.17"
     },
     "peerDependencies": {
+      "fs": "jspm-nodelibs-fs@^0.2.0",
+      "path": "jspm-nodelibs-path@^0.2.0",
       "process": "jspm-nodelibs-process@~0.2.0"
     }
   },

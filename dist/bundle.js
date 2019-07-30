@@ -1,4 +1,4 @@
-System.registerDynamic("npm:vivarthanam-converter@1.0.1.json", [], true, function() {
+System.registerDynamic("npm:vivarthanam-converter@1.0.2.json", [], true, function() {
   return {
     "main": "dist/vivarthanam-converter.umd.js",
     "format": "cjs",
@@ -22,7 +22,7 @@ System.registerDynamic("npm:vivarthanam-converter@1.0.1.json", [], true, functio
   };
 });
 
-System.registerDynamic('npm:vivarthanam-converter@1.0.1/dist/vivarthanam-converter.umd.js', [], true, function ($__require, exports, module) {
+System.registerDynamic('npm:vivarthanam-converter@1.0.2/dist/vivarthanam-converter.umd.js', [], true, function ($__require, exports, module) {
   var global = this || self,
       GLOBAL = global;
   (function (global, factory) {
@@ -209,7 +209,7 @@ System.registerDynamic('npm:vivarthanam-converter@1.0.1/dist/vivarthanam-convert
     Object.defineProperty(exports, '__esModule', { value: true });
   });
 });
-System.registerDynamic("npm:vivarthanam-unicode-conversion-maps@1.0.0.json", [], true, function() {
+System.registerDynamic("npm:vivarthanam-unicode-conversion-maps@1.0.1.json", [], true, function() {
   return {
     "main": "dist/maps.umd.js",
     "format": "cjs",
@@ -230,7 +230,7 @@ System.registerDynamic("npm:vivarthanam-unicode-conversion-maps@1.0.0.json", [],
   };
 });
 
-System.registerDynamic('npm:vivarthanam-unicode-conversion-maps@1.0.0/dist/maps.umd.js', [], true, function ($__require, exports, module) {
+System.registerDynamic('npm:vivarthanam-unicode-conversion-maps@1.0.1/dist/maps.umd.js', [], true, function ($__require, exports, module) {
 	var global = this || self,
 	    GLOBAL = global;
 	(function (global, factory) {
