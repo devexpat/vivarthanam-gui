@@ -4,7 +4,7 @@ A forked version of Ekarupa. Wev'e added support for Haritha bold.
 
 # Supported Fonts
 
-  - Haritha Bold <-- we've added this one here additionally
+  - Haritha Bold <-- we've added this
   - Haritha
   - Ambili
   - Charaka
