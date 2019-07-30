@@ -9,7 +9,8 @@ SystemJS.config({
   },
   devConfig: {
     "map": {
-      "plugin-babel": "npm:systemjs-plugin-babel@0.0.17"
+      "plugin-babel": "npm:systemjs-plugin-babel@0.0.17",
+      "@jspm/core": "npm:@jspm/core@1.0.4"
     }
   },
   transpiler: "plugin-babel",
@@ -33,10 +34,18 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
-    "devexpat/vivarthanam-converter": "github:devexpat/vivarthanam-converter@master",
-    "devexpat/vivarthanam-unicode-conversion-maps": "github:devexpat/vivarthanam-unicode-conversion-maps@master",
+    "fs": "npm:jspm-nodelibs-fs@0.2.1",
+    "path": "npm:jspm-nodelibs-path@0.2.3",
+    "vivarthanam-converter": "npm:vivarthanam-converter@1.0.1",
+    "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.0",
     "process": "npm:jspm-nodelibs-process@0.2.0",
     "vue": "npm:vue@2.2.1"
   },
-  packages: {}
+  packages: {
+    "npm:vivarthanam-converter@1.0.1": {
+      "map": {
+        "vivarthanam-unicode-conversion-maps": "npm:vivarthanam-unicode-conversion-maps@1.0.0"
+      }
+    }
+  }
 });

@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Unicode conversion</title>
+    <title>Unicode conversion : Haritha bold [Ekarupa project forked!]</title>
+    <meta name="description" content="ASCII to Unicode converter.Supported font names are Haritha Bold,Haritha,Ambili,Charaka,Indulekha,Karthika,Manorama,MatWeb,Nandini,Panchari,Revathi,Uma ">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="dist/assets/siimple.min.css">
     <link rel="stylesheet" href="dist/assets/siimple-colors.min.css">
@@ -19,6 +20,7 @@
                           <option value="banglapedia">Banglapedia</option>
                       </optgroup>
                       <optgroup label="Malayalam">
+                          <option value="haritha_bold">Haritha Bold</option>
                           <option value="ambili">Ambili</option>
                           <option value="charaka">Charaka</option>
                           <option value="haritha">Haritha</option>
@@ -35,6 +37,9 @@
                           <option value="valluvar">Valluvar</option>
                       </optgroup>
                   </select>
+                  <p class="siimple-p  siimple-paragraph--lead features">
+                      Newly added support for <strong> Haritha Bold </strong>
+                  </p>
               </div>
           </div>
           <div class="siimple-grid-row" style="height:90%;">
@@ -45,13 +50,20 @@
                   <textarea name="unicode" id="unicode" v-model="outputText" readonly="true" placeholder="The unicode text will appear here !" class="siimple-textarea" rows="40"></textarea>
               </div>
           </div>
+          <div class="siimple-grid-row" style="height:10%;"></div>
+          <blockquote class="siimple-blockquote">
+                A forked version of Ekarupa.We added support for Haritha bold. Contact the Developer <a class="siimple-link" href="mailto:devexpat@gmail.com">Devexpat</a><br/>
+                
+
+            </blockquote>
+            </div>
     </div>
 
     <script src="jspm_packages/system.js" charset="utf-8"></script>
     <script src="jspm.config.js" charset="utf-8"></script>
     <script src="dist/bundle.js" charset="utf-8"></script>
     <script type="text/javascript">
-      System.import('src/js/ascii-unicode-converter.js');
+      System.import('src/js/vivarthanam-gui.js');
     </script>
   </body>
 </html>

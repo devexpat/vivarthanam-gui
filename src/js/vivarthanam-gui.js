@@ -1,5 +1,5 @@
-import {asciiToUnicode as a2u} from 'devexpat/vivarthanam-converter';
-import * as maps from 'devexpat/vivarthanam-unicode-conversion-maps';
+import {asciiToUnicode as a2u} from 'vivarthanam-converter';
+import * as maps from 'vivarthanam-unicode-conversion-maps';
 import Vue from 'vue/dist/vue.min.js';
 
 var app = new Vue({
@@ -7,7 +7,7 @@ var app = new Vue({
   data: {
     inputText: '',
     outputText: '',
-    map: 'ambili'
+    map: 'haritha_bold'
   },
   methods: {
     convert: function(event) {
