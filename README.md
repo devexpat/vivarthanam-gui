@@ -28,7 +28,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ git clone https://github.com/devexpat/vivarthanam-gui.git
 $ cd vivarthanam-gui
-$ npm install -d
+$ npm install
 $ npm start
 ```
 
