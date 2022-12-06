@@ -20,7 +20,7 @@
   "devDependencies": {
     "jspm": "^0.17.0-beta.38",
     "concurrently": "latest",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "watch": "latest"
   },
   "dependencies": {
