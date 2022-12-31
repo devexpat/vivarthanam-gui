@@ -18,7 +18,7 @@
     "start": "concurrently 'npm run watch:js' 'npm run watch:css' 'npm run run-server'"
   },
   "devDependencies": {
-    "jspm": "^0.17.0-beta.38",
+    "jspm": "^2.0.0-beta.7",
     "concurrently": "latest",
     "http-server": "^0.11.1",
     "watch": "latest"
